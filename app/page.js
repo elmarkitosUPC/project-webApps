@@ -1,9 +1,9 @@
-import Component from "@/components/component/component";
+import Home from "../app/pages/home/page";
 
-export default function Home() {
+export default function Page() {
   return (
     <main className>
-      <Component />
+      <Home />
     </main>
   );
 }
