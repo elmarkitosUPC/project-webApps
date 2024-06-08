@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function About() {
   return (
     <div className="bg-white min-h-screen flex flex-col">
@@ -18,7 +19,7 @@ export default function About() {
           <div>
             <h2 className="text-3xl font-bold mb-4 text-gray-900">About the Creator</h2>
             <div className="flex items-center mb-4">
-              <img src="/photos/photo-profile.jpg" alt="Creator's photo" width={80} height={80} className="rounded-full mr-4" />
+              <Image src="/photos/photo-profile.jpg" alt="Creator's photo" width={80} height={80} className="rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-bold text-gray-900">Marc Torres</h3>
                 <p className="text-gray-700">
